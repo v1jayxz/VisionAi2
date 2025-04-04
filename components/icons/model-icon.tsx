@@ -5,7 +5,7 @@ export function ModelIcon({ fill = "white", width = 52, height = 24 }) {
       height={height}
       viewBox="0 0 89 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      // xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M52.308 3.07812H57.8465V4.92428H56.0003V6.77043H54.1541V10.4627H57.8465V12.3089H54.1541V25.232H52.308V27.0781H46.7695V25.232H48.6157V12.3089H46.7695V10.4627H48.6157V6.77043H50.4618V4.92428H52.308V3.07812Z"

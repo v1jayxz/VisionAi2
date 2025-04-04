@@ -9,7 +9,7 @@ import { ModelIcon } from "@/components/icons/model-icon";
 import Link from "next/link";
 
 const DEFAULT_PROMPT =
-  "A cinematic shot of a baby raccoon wearing an intricate italian priest robe";
+  "";
 
 function randomSeed() {
   return Math.floor(Math.random() * 10000000).toFixed(0);
@@ -133,20 +133,20 @@ export default function Lightning() {
         </div>
         <div className="container flex flex-col items-center justify-center my-4">
           <p className="text-sm text-base-content/70 py-4 text-center text-neutral-400">
-            This playground is hosted on{" "}
-            <strong>
+            All rights reserved by Vijay Dabhi
+            {/* <strong>
               <a href="https://fal.ai" className="underline" target="_blank">
                 fal.ai
               </a>
-            </strong>{" "}
-            and is for demonstration purposes only.
+            </strong>{" "} */}
+                
           </p>
-          <div className="flex flex-row items-center space-x-2">
+          {/* <div className="flex flex-row items-center space-x-2">
             <span className="text-xs font-mono">powered by</span>
             <Link href="https://fal.ai" target="_blank">
               <ModelIcon />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
