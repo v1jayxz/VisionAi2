@@ -1,5 +1,7 @@
 import { route } from "@fal-ai/serverless-proxy/nextjs";
 import { type NextRequest } from "next/server";
+console.log("FAL_KEY:", process.env.FAL_KEY);
+
 
 const URL_ALLOW_LIST = ["https://rest.alpha.fal.ai/tokens/"];
 
